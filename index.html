@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Shop</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Buy Best Food</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Sea food</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Meats</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" role="search">
+                        <input id="search" class="form-control me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button id="searchB" class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-danger-emphasis opacity-75 py-4 fst-italic">Find Your Favorite Food</h1>
+            <div id="foodD" class="mx-auto">
+
+            </div>
+            <div id="ddd">
+                <div class="bg-secondary-subtle d-flex justify-content-center flex-column align-items-center vh-100">
+                    <h1 class="text-secondary">Not Fount</h1>
+                    <p class="text-secondary">Please Search A Valid Food</p>
+                </div>
+            </div>
+            <div id="search-result" class="row pt-5 g-3">
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="index.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
